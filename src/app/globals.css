@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: garden, black --default;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-base-300) transparent;
+}
+
+.pattern {
+  box-shadow: 0 0 0 1px var(--color-base-100) inset;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-base-100),
+    var(--color-base-100) 13px,
+    rgba(255, 255, 255, 0.2) 13px,
+    rgba(255, 255, 255, 0.2) 14px
+  );
+  background-size: 40px 40px;
+}
+
+.pattern-sm {
+  box-shadow: 0 0 0 1px var(--color-base-100) inset;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-base-100),
+    var(--color-base-100) 6px,
+    var(--color-base-300) 6px,
+    var(--color-base-300) 7px
+  );
+  background-size: 20px 20px;
+}
+
+@utility screen-line-before {
+  @apply relative before:absolute before:top-0 before:-left-[100vw] before:z-2 before:h-px before:w-[200vw] before:bg-base-300;
+}
+
+@utility screen-line-after {
+  @apply relative after:absolute after:bottom-0 after:-left-[100vw] after:z-2 after:h-px after:w-[200vw] after:bg-base-300;
+}
