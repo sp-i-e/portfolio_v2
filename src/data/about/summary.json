@@ -1,0 +1,78 @@
+{
+  "bioSection": {
+    "text": "bio",
+    "items": [
+      {
+        "icon": "code",
+        "text": "Software Engineer",
+        "linkText": "@walmart",
+        "link": "https://tech.walmart.com/content/walmart-global-tech/en_us.html"
+      },
+      {
+        "icon": "location",
+        "text": "Bangalore, IN",
+        "linkText": "",
+        "link": ""
+      },
+      {
+        "icon": "phone",
+        "text": "+91 783 877 3018",
+        "linkText": "",
+        "link": ""
+      },
+      {
+        "icon": "email",
+        "text": "",
+        "linkText": "hitesh2001yadav@gmail.com",
+        "link": "mailto:hitesh2001yadav@gmail.com"
+      },
+      {
+        "icon": "link",
+        "text": "",
+        "linkText": "sp-i-e.github.io",
+        "link": "https://sp-i-e.github.io"
+      }
+    ]
+  },
+  "linksSection": {
+    "text": "links",
+    "items": [
+      {
+        "icon": "linkedin-link",
+        "text": "LinkedIn",
+        "linkText": "@hitesh9904",
+        "link": "https://www.linkedin.com/in/hitesh9904"
+      },
+      {
+        "icon": "github-link",
+        "text": "GitHub",
+        "linkText": "@sp-i-e",
+        "link": "https://github.com/sp-i-e"
+      },
+      {
+        "icon": "leetcode-link",
+        "text": "LeetCode",
+        "linkText": "@hiteshy",
+        "link": "https://leetcode.com/u/hiteshy"
+      },
+      {
+        "icon": "gfg-link",
+        "text": "GFG",
+        "linkText": "@hitesh2001yadav",
+        "link": "https://www.geeksforgeeks.org/user/hitesh2001yadav"
+      },
+      {
+        "icon": "spotify-link",
+        "text": "Spotify",
+        "linkText": "@sp",
+        "link": "https://open.spotify.com/user/glmrvvqsn1zbt7jg20490xbq6"
+      },
+      {
+        "icon": "discord-link",
+        "text": "Discord",
+        "linkText": "@__spl",
+        "link": "https://discordlookup.com/user/501030402975072276"
+      }
+    ]
+  }
+}

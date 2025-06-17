@@ -1,0 +1,227 @@
+{
+  "data": [
+    {
+      "title": "social",
+      "items": [
+        {
+          "title": "Cyrus",
+          "image": "https://i.pinimg.com/736x/6e/e9/45/6ee9458853ca3910aa8eec6b8c131abf.jpg",
+          "desc": [
+            "Discord bot for RSS and notification utilities",
+            "Subscribes to RSS feeds to monitor for new content",
+            "Handles multiple RSS sources",
+            "Notifications as soon as the new content is available"
+          ],
+          "link": "https://github.com/sp-i-e/Cyrus",
+          "tags": ["Python", "Discord.py", "SQLite"]
+        },
+        {
+          "title": "Portfolio",
+          "image": "https://i.pinimg.com/736x/3c/44/15/3c441528c38cf616f1345dd9223bedc6.jpg",
+          "desc": ["The story of my life"],
+          "link": "https://github.com/sp-i-e/portfolio_v2",
+          "tags": ["React.js", "Next.js", "JavaScript", "Tailwind CSS"]
+        },
+        {
+          "title": "Portfolio Legacy",
+          "image": "https://i.pinimg.com/736x/13/7f/17/137f17a695f289fd2bffd544fb29e39b.jpg",
+          "desc": ["The story of my life - First Draft"],
+          "link": "https://github.com/sp-i-e/portfolio",
+          "tags": ["HTML", "CSS", "JavaScript"]
+        }
+      ]
+    },
+    {
+      "title": "Web Dev",
+      "items": [
+        {
+          "title": "Arcanum",
+          "image": "https://i.pinimg.com/736x/1f/d9/aa/1fd9aa56e236314ffaf21fba65dfbd9d.jpg",
+          "desc": [
+            "Guides, Walkthorughs, and Tutorials for video games",
+            "Covers new patches, DLCs, and seasonal events",
+            "In-depth guides on characters, gear, loadouts, and mechanics"
+          ],
+          "link": "https://github.com/sp-i-e/Arcanum",
+          "tags": ["SvelteKit", "Rust", "SQLite", "DaisyUI"]
+        },
+        {
+          "title": "Avalon",
+          "image": "https://i.pinimg.com/736x/56/c4/c8/56c4c8d19045132479beb65e1e5708f3.jpg",
+          "desc": [
+            "Track, discover, and get notified about movies",
+            "Browse and track movies by genre, release date, rating, etc",
+            "Instant notifications when a movie is released",
+            "Personalized movie suggestions based on your taste"
+          ],
+          "link": "https://github.com/sp-i-e/Avalon",
+          "tags": ["React.js", "JavaScript", "MUI", "Go", "MySQL"]
+        },
+        {
+          "title": "Stay Sense",
+          "image": "https://i.pinimg.com/736x/7f/0a/a3/7f0aa30dae4e9aa5c77d04cbe742ae94.jpg",
+          "desc": [
+            "Browse, book, and manage accommodations with ease",
+            "Find hotels by location, price, rating, amenities, and more",
+            "High-quality photos, reviews, and real-time availability",
+            "Fast, protected checkout with multiple payment options"
+          ],
+          "link": "https://github.com/sp-i-e/staysense-refactor",
+          "tags": ["EJS, Node.js", "MongoDB", "Bootstrap"]
+        },
+        {
+          "title": "HireHub",
+          "image": "https://i.pinimg.com/736x/d6/0e/09/d60e09d8ab935e88c8ca09d7fbd81077.jpg",
+          "desc": [
+            "Centralized platform built to streamline campus placements",
+            "Personalized dashboards for students, companies, and admins",
+            "Plan and publish placement events with real-time updates",
+            "Monitor application status, test results, and selection progress"
+          ],
+          "link": "https://github.com/sp-i-e/hirehub-refactor",
+          "tags": ["EJS, Node.js", "MongoDB", "Bootstrap"]
+        },
+        {
+          "title": "IntelliCode",
+          "image": "https://i.pinimg.com/736x/a0/2c/e2/a02ce2b4f07d182c7b5f448224fbb598.jpg",
+          "desc": [
+            "Turns your voice into working code",
+            "Generates clean, structured code instantly",
+            "Smart enough to recognize coding logic, syntax, and common patterns",
+            "Auto-completes, optimizes, and improves the spoken logic"
+          ],
+          "link": "https://github.com/sp-i-e/IntelliCode",
+          "tags": ["React.js", "Node.js", "OpenAI"]
+        },
+        {
+          "title": "Engage </>",
+          "image": "https://i.pinimg.com/736x/93/09/9e/93099ec0245f0be8fc076cdb1e82fa2c.jpg",
+          "desc": [
+            "A place for students to share ideas, stay informed, and connect beyond the classroom",
+            "Share experiences, tips, opinions, and creativity with the campus community",
+            "Promote college fests, workshops, and announcements in one place",
+            "Alerts for new blog posts, replies, and upcoming events"
+          ],
+          "link": "https://github.com/sp-i-e/college-engagement-app",
+          "tags": ["EJS, Node.js", "MongoDB", "Bootstrap"]
+        },
+        {
+          "title": "Camp Archive",
+          "image": "https://i.pinimg.com/736x/27/48/7e/27487e07d4b2c91b3191f260fd05bafa.jpg",
+          "desc": [
+            "Discover, compare, and book unforgettable camping experiences",
+            "Tents, cabins, RV spots, glamping, and more",
+            "Explore campsites through traveler pics and honest reviews",
+            "Post, manage, and update the sites effortlessly"
+          ],
+          "link": "https://github.com/sp-i-e/CampArchive",
+          "tags": ["EJS, Node.js", "MongoDB", "Bootstrap"]
+        }
+      ]
+    },
+    {
+      "title": "Augmented Reality",
+      "items": [
+        {
+          "title": "LearnR",
+          "image": "https://i.pinimg.com/736x/d9/bb/b2/d9bbb25c8b3719eacfb9a755a71abba8.jpg",
+          "desc": [
+            "Brings learning to life through Augmented Reality",
+            "Visualize complex topics in 3D, right in your space",
+            "Covers various subjects and topics"
+          ],
+          "link": "https://github.com/sp-i-e/learnr",
+          "tags": ["HTML", "CSS", "JavaScript", "AR.js"]
+        },
+        {
+          "title": "Tuneology",
+          "image": "https://i.pinimg.com/736x/eb/9d/ed/eb9ded6d1360426cc01d50973b180d7d.jpg",
+          "desc": [
+            "See, hear, and isolate instruments from any song using Augmented Reality",
+            "Visualize each beat, note, and layer around you",
+            "Separate vocals, drums, bass, piano, and more from any track",
+            "Watch instruments float and animate around you in 3D space"
+          ],
+          "link": "https://github.com/sp-i-e/tuneology",
+          "tags": ["HTML", "CSS", "JavaScript", "AR.js"]
+        }
+      ]
+    },
+    {
+      "title": "Game Dev",
+      "items": [
+        {
+          "title": "Apocalypse",
+          "image": "https://i.pinimg.com/736x/a8/ba/cc/a8baccad0e87f7ddf72c114ad2c26ca4.jpg",
+          "desc": [
+            "Step into a post-apocalyptic world where survival is the only goal",
+            "Lock, load, and fight your way through thrilling missions",
+            "Fast-paced gunplay with smooth controls and deadly precision."
+          ],
+          "link": "https://github.com/sp-i-e/Apocalypse_n",
+          "tags": ["C#", "Unity Game Engine"]
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning",
+      "items": [
+        {
+          "title": "Accident Prevention System",
+          "image": "https://i.pinimg.com/736x/4b/e6/3c/4be63ce519b416a98e095b01616c2014.jpg",
+          "desc": [
+            "Monitor driver behavior and prevent accidents before they happen",
+            "Detects signs of drowsiness in real time",
+            "Uses facial cues, blink rates, and head movements to detect drowsiness",
+            "Sends real-time audio or vibration alerts to wake drowsy drivers"
+          ],
+          "link": "https://github.com/sp-i-e/APS",
+          "tags": ["TensorFLow", "JavaScript"]
+        },
+        {
+          "title": "RPS Predictor",
+          "image": "https://i.pinimg.com/736x/f1/83/f7/f183f73637a08ca35bca8c51ccdcb019.jpg",
+          "desc": [
+            "Predicts your next move based on your play patterns",
+            "Challenge the machine in real-time rounds"
+          ],
+          "link": "https://github.com/sp-i-e/rps_predictor",
+          "tags": ["TensorFLow", "JavaScript"]
+        }
+      ]
+    },
+    {
+      "title": "Academic",
+      "items": [
+        {
+          "title": "Parity Checker",
+          "image": "https://i.pinimg.com/736x/b6/50/11/b65011dd748376bf6d4c0e87e2a0969c.jpg",
+          "desc": [
+            "Turing Machine designed to check even parity in binary strings"
+          ],
+          "link": "https://github.com/sp-i-e/Parity-checker",
+          "tags": ["Turing Machine"]
+        },
+        {
+          "title": "Scribble",
+          "image": "https://i.pinimg.com/736x/7c/82/21/7c822166b553dad2fd3ee6e0eef7f714.jpg",
+          "desc": [
+            "Jot down, organize, and access your thoughts anytime, anywhere"
+          ],
+          "link": "https://github.com/sp-i-e/scribble",
+          "tags": ["React.js"]
+        },
+        {
+          "title": "News Wire",
+          "image": "https://i.pinimg.com/736x/e3/98/79/e398797831f31858eca9a571e4c07e1d.jpg",
+          "desc": [
+            "Latest headlines, breaking stories, and trending topics",
+            "Seamless collaboration for reporters, editors, and guest writers"
+          ],
+          "link": "https://github.com/sp-i-e/newswire-frontend",
+          "tags": ["React.js", "Node.js", "MongoDB"]
+        }
+      ]
+    }
+  ]
+}

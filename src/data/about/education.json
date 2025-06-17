@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "title": "Delhi Technological University",
+      "icon": "cap",
+      "subtext": {
+        "title": "B.Tech in Computer Science",
+        "icon": "four-dots",
+        "location": "Del, IN",
+        "timeline": "07.2019 — 07.2023"
+      }
+    },
+    {
+      "title": "SDPS | Secondary School",
+      "icon": "tie",
+      "subtext": {
+        "title": "CBSE Class XII",
+        "icon": "two-dots",
+        "location": "Del, IN",
+        "timeline": "03.2017 — 03.2019"
+      }
+    },
+    {
+      "title": "SDPS | High School",
+      "icon": "pen",
+      "subtext": {
+        "title": "CBSE Class X",
+        "icon": "two-dots",
+        "location": "Del, IN",
+        "timeline": "03.2015 — 03.2017"
+      }
+    }
+  ]
+}

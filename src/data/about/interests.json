@@ -1,0 +1,193 @@
+{
+  "data": [
+    {
+      "text": "programming",
+      "items": [
+        {
+          "icon": "cpp",
+          "tooltip": "C++"
+        },
+        {
+          "icon": "java",
+          "tooltip": "Java"
+        },
+        {
+          "icon": "python",
+          "tooltip": "Python"
+        },
+        {
+          "icon": "scala",
+          "tooltip": "Scala"
+        },
+        {
+          "icon": "bash",
+          "tooltip": "Bash"
+        },
+        {
+          "icon": "docker",
+          "tooltip": "Docker"
+        },
+        {
+          "icon": "terraform",
+          "tooltip": "Terraform"
+        }
+      ]
+    },
+    {
+      "text": "frontend",
+      "items": [
+        {
+          "icon": "react",
+          "tooltip": "React.js"
+        },
+        {
+          "icon": "next",
+          "tooltip": "Next.js"
+        },
+        {
+          "icon": "svelte",
+          "tooltip": "Svelte Kit"
+        },
+        {
+          "icon": "redux",
+          "tooltip": "Redux"
+        },
+        {
+          "icon": "javascript",
+          "tooltip": "JavaScript"
+        },
+        {
+          "icon": "typescript",
+          "tooltip": "TypeScript"
+        },
+        {
+          "icon": "html",
+          "tooltip": "HTML"
+        },
+        {
+          "icon": "css",
+          "tooltip": "CSS"
+        },
+        {
+          "icon": "sass",
+          "tooltip": "SASS"
+        },
+        {
+          "icon": "ejs",
+          "tooltip": "EJS"
+        },
+        {
+          "icon": "tailwind",
+          "tooltip": "Tailwind CSS"
+        },
+        {
+          "icon": "react-router",
+          "tooltip": "React Router"
+        },
+        {
+          "icon": "mui",
+          "tooltip": "MUI"
+        },
+        {
+          "icon": "antd",
+          "tooltip": "Ant Design"
+        }
+      ]
+    },
+    {
+      "text": "backend",
+      "items": [
+        {
+          "icon": "springboot",
+          "tooltip": "Spring Boot"
+        },
+        {
+          "icon": "node",
+          "tooltip": "Node.js"
+        },
+        {
+          "icon": "fast-api",
+          "tooltip": "Fast API"
+        },
+        {
+          "icon": "flask",
+          "tooltip": "Flask"
+        },
+        {
+          "icon": "go",
+          "tooltip": "Go"
+        },
+        {
+          "icon": "camunda",
+          "tooltip": "Camunda"
+        },
+        {
+          "icon": "rust",
+          "tooltip": "Rust"
+        }
+      ]
+    },
+    {
+      "text": "database",
+      "items": [
+        {
+          "icon": "mysql",
+          "tooltip": "MySQL"
+        },
+        {
+          "icon": "postgesql",
+          "tooltip": "PostgreSQL"
+        },
+        {
+          "icon": "elastic-search",
+          "tooltip": "Elastic Search"
+        },
+        {
+          "icon": "sqlite",
+          "tooltip": "SQLite"
+        },
+        {
+          "icon": "mongo",
+          "tooltip": "MongoDB"
+        },
+        {
+          "icon": "cosmos",
+          "tooltip": "Azure Cosmos DB"
+        },
+        {
+          "icon": "bigtable",
+          "tooltip": "Google BigTable"
+        }
+      ]
+    },
+    {
+      "text": "data-processing",
+      "items": [
+        {
+          "icon": "spark",
+          "tooltip": "Apache Spark"
+        },
+        {
+          "icon": "kafka",
+          "tooltip": "Apache Kafka"
+        },
+        {
+          "icon": "pubsub",
+          "tooltip": "Google Pub/Sub"
+        },
+        {
+          "icon": "eventhubs",
+          "tooltip": "Azure Event Hubs"
+        },
+        {
+          "icon": "airflow",
+          "tooltip": "Apache Airflow"
+        },
+        {
+          "icon": "openlineage",
+          "tooltip": "OpenLineage"
+        }
+      ]
+    }
+  ]
+}

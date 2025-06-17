@@ -1,0 +1,60 @@
+{
+  "heading": "Hitesh Yadav",
+  "flipSentences": [
+    "Software Developer",
+    "UI/UX Designer",
+    "Backend Enthusiast",
+    "Not an Open Source Contributor ¯\\_(ツ)_/¯"
+  ],
+  "codeBlocks": [
+    {
+      "prefix": "$",
+      "text": "git clone",
+      "className": "",
+      "isLink": false,
+      "link": ""
+    },
+    {
+      "prefix": "",
+      "text": "git@github.com:sp-9904/sp-9904.github.io.git .",
+      "className": "",
+      "isLink": true,
+      "link": "https://github.com/sp-i-e/portfolio_v2"
+    },
+    {
+      "prefix": ">",
+      "text": "Cloning into '.'...",
+      "className": "text-warning",
+      "isLink": false,
+      "link": ""
+    },
+    {
+      "prefix": ">",
+      "text": "Resolving deltas: 100% (41/41), done.",
+      "className": "text-success",
+      "isLink": false,
+      "link": ""
+    },
+    {
+      "prefix": "$",
+      "text": "npm i && npm run dev",
+      "className": "",
+      "isLink": false,
+      "link": ""
+    },
+    {
+      "prefix": ">",
+      "text": "✓ Starting...",
+      "className": "text-warning",
+      "isLink": false,
+      "link": ""
+    },
+    {
+      "prefix": ">",
+      "text": "✓ Ready",
+      "className": "text-success",
+      "isLink": false,
+      "link": ""
+    }
+  ]
+}

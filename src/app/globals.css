@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: garden, black --default;
+  themes: silk, black --default;
 }
 
 * {
@@ -32,10 +32,32 @@
   background-size: 20px 20px;
 }
 
+.stop-color-base {
+  stop-color: var(--color-base-content);
+}
+
 @utility screen-line-before {
   @apply relative before:absolute before:top-0 before:-left-[100vw] before:z-2 before:h-px before:w-[200vw] before:bg-base-300;
 }
 
 @utility screen-line-after {
   @apply relative after:absolute after:bottom-0 after:-left-[100vw] after:z-2 after:h-px after:w-[200vw] after:bg-base-300;
+}
+
+@theme inline {
+  --animate-meteor-effect: meteor 5s linear infinite;
+
+  @keyframes meteor {
+    0% {
+      transform: rotate(215deg) translateX(0);
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(215deg) translateX(-500px);
+      opacity: 0;
+    }
+  }
 }

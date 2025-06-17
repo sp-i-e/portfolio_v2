@@ -1,7 +1,20 @@
+"use client";
+
+import useStateData from "@/hooks/useStateData";
+
 export default function ThemeSwitcher() {
+  const { handleSetTheme } = useStateData();
+
   return (
     <label className="swap swap-rotate w-full h-full">
-      <input type="checkbox" className="theme-controller" value="garden" />
+      <input
+        type="checkbox"
+        className="theme-controller"
+        value="silk"
+        onChange={(e) => {
+          handleSetTheme(e?.target?.checked ? "light" : "dark");
+        }}
+      />
       {/* moon icon */}
       <svg
         className="swap-off h-9 w-9 fill-current"

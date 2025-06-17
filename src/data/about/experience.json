@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "title": "walmart global tech",
+      "icon": "walmart",
+      "active": true,
+      "items": [
+        {
+          "title": "Software Developer III",
+          "icon": "code",
+          "location": "Blr, IN",
+          "timeline": "06.2025 - present",
+          "content": [
+            "Helped develop Neptune Airflow Tool, a management and monitoring solution for Apache Airflow featuring DAG versioning,role-based access control, real-time pipeline monitoring, and multi-tenant support; achieved a 90%+ adoption by data engineering teams at Sam's Club."
+          ]
+        },
+        {
+          "title": "Software Developer II",
+          "icon": "code-dim",
+          "location": "Blr, IN",
+          "timeline": "07.2023 - 06.2025",
+          "content": [
+            "Contributed to design and development of Self-Service Data Ingestion (SSDI) tool, enabling users to build, manage and automate streaming/batch pipelines. Aimed at streamlining the orchestration process into Delta tables, it reduced pipeline development time by 85% and increased adoption by 60%.",
+            "Co-developed Sams Data Club (SDC), a unified data governance portal, streamlining data discovery and access control; reduced reconciliation time by 40% and contributed to $4M+ in annual cost savings forthe organization.",
+            "Worked on building a real-time Data Quality Monitoring platform (SDQ), improving anomaly detection speed by 3x, facilitating cloud migration and helping determining and preventing data issues that previously led to 15% operational inefficiency.",
+            "Collaborated with a cross-functional team to develop Data Armor (DA), a lineage tracking portal. Developed a lineage spark listener, capturing extensive lineage, achieving 80%+ lineage coverage for Spark jobs running in Airflow at Sam’s Club and improving auditability of data pipelines."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Placewit",
+      "icon": "placewit",
+      "active": false,
+      "items": [
+        {
+          "title": "Coding Instructor",
+          "icon": "compass",
+          "location": "Del, IN",
+          "timeline": "01.2023 - 07.2023",
+          "content": [
+            "Led coding instruction sessions for students of varying ages and skill levels.",
+            "Facilitated hands-on coding projects and exercises to reinforce concepts and promote practical application."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Freelance",
+      "icon": "laptop",
+      "active": true,
+      "items": [
+        {
+          "title": "Full Stack Developer",
+          "icon": "code",
+          "location": "Del, In",
+          "timeline": "01.2021 - present",
+          "content": null
+        }
+      ]
+    }
+  ]
+}

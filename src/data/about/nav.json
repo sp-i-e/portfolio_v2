@@ -1,0 +1,153 @@
+{
+  "data": [
+    {
+      "text": "info",
+      "type": "folder",
+      "open": true,
+      "id": "/about",
+      "children": [
+        {
+          "text": "summary.md",
+          "type": "file",
+          "open": false,
+          "id": "/about",
+          "icon": "markdown-file",
+          "link": "/about",
+          "externalLink": false
+        },
+        {
+          "text": "interest",
+          "type": "folder",
+          "open": false,
+          "id": "/about/interest",
+          "children": [
+            {
+              "text": "programming.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/interest#programming",
+              "icon": "markdown-file",
+              "link": "/about/interest#programming",
+              "externalLink": false
+            },
+            {
+              "text": "frontend.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/interest#frontend",
+              "icon": "markdown-file",
+              "link": "/about/interest#frontend",
+              "externalLink": false
+            },
+            {
+              "text": "backend.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/interest#backend",
+              "icon": "markdown-file",
+              "link": "/about/interest#backend",
+              "externalLink": false
+            },
+            {
+              "text": "database.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/interest#database",
+              "icon": "markdown-file",
+              "link": "/about/interest#database",
+              "externalLink": false
+            },
+            {
+              "text": "data-processing.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/interest#data-processing",
+              "icon": "markdown-file",
+              "link": "/about/interest#data-processing",
+              "externalLink": false
+            }
+          ]
+        },
+        {
+          "text": "experience",
+          "type": "folder",
+          "open": false,
+          "id": "/about/experience",
+          "children": [
+            {
+              "text": "walmart.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/experience#walmart",
+              "icon": "markdown-file",
+              "link": "/about/experience#walmart",
+              "externalLink": false
+            },
+            {
+              "text": "placewit.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/experience#placewit",
+              "icon": "markdown-file",
+              "link": "/about/experience#placewit",
+              "externalLink": false
+            },
+            {
+              "text": "freelance.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/experience#freelance",
+              "icon": "markdown-file",
+              "link": "/about/experience#freelance",
+              "externalLink": false
+            }
+          ]
+        },
+        {
+          "text": "education",
+          "type": "folder",
+          "open": false,
+          "id": "/about/education",
+          "children": [
+            {
+              "text": "university.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/education#university",
+              "icon": "markdown-file",
+              "link": "/about/education#university",
+              "externalLink": false
+            },
+            {
+              "text": "secondary-school.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/education#secondary-school",
+              "icon": "markdown-file",
+              "link": "/about/education#secondary-school",
+              "externalLink": false
+            },
+            {
+              "text": "high-school.md",
+              "type": "file",
+              "open": false,
+              "id": "/about/education#high-school",
+              "icon": "markdown-file",
+              "link": "/about/education#high-school",
+              "externalLink": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "resume.pdf",
+      "type": "file",
+      "open": false,
+      "id": "/resume",
+      "icon": "pdf-file",
+      "link": "https://drive.google.com/file/d/1e_U2rVGM2iFZI9AfAILRyiLh2rt1I7n5/view?usp=sharing",
+      "externalLink": true
+    }
+  ]
+}

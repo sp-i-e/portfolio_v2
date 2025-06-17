@@ -11,7 +11,7 @@ export default function Footer() {
       </div>
       <div
         data-tip="Dwld CV"
-        className="tooltip relative font-semibold  text-lg col-span-1 hover:bg-base-300 border-x-1 border-base-300"
+        className="transition-background duration-100 tooltip relative font-semibold  text-lg col-span-1 hover:bg-base-300 border-x-1 border-base-300"
       >
         <Link
           className="h-full w-full flex items-center justify-center"
@@ -23,7 +23,7 @@ export default function Footer() {
       </div>
       <div
         data-tip="Lkdn"
-        className="tooltip relative font-semibold  text-lg col-span-1 hover:bg-base-300 border-r-1 border-base-300"
+        className="transition-background duration-100 tooltip relative font-semibold  text-lg col-span-1 hover:bg-base-300 border-r-1 border-base-300"
       >
         <Link
           className="h-full w-full flex items-center justify-center"
@@ -36,14 +36,14 @@ export default function Footer() {
       <div className="col-span-10"></div>
       <div
         data-tip="Gthb"
-        className="tooltip relative font-semibold text-lg col-span-3 hover:bg-base-300 border-l-1 border-base-300"
+        className="transition-background duration-100 tooltip relative font-semibold text-lg col-span-3 hover:bg-base-300 border-l-1 border-base-300"
       >
         <Link
           className="h-full w-full flex gap-3 items-center justify-center"
-          href="https://github.com/spyder7370/"
+          href="https://github.com/sp-i-e"
           target="_blank"
         >
-          <span>@sp-9904</span>
+          <span>@sp-i-e</span>
           <GithubIcon className="h-10 w-10 fill-current" />
         </Link>
       </div>
