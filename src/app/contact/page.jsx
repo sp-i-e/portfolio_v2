@@ -14,12 +14,12 @@ export default async function Contact() {
       <VortexBackground>
         <div className="h-full w-full border-l-1 border-base-300">
           <div className="flex flex-col w-full h-full overflow-x-hidden">
-            <div className="pt-15 pb-1 font-mono text-xs text-neutral-500 select-none mx-[30%] border-x-1 border-base-300"></div>
-            <div className="screen-line-before py-2 pl-2 font-mono text-xs text-neutral-500 select-none mx-[30%] border-x-1 border-base-300">
+            <div className="pt-15 pb-1 font-mono text-xs text-neutral-500 select-none mx-[7%] sm:mx-[15%] md:mx-[22%] lg:mx-[30%] border-x-1 border-base-300"></div>
+            <div className="screen-line-before py-2 pl-2 font-mono text-xs text-neutral-500 select-none mx-[7%] sm:mx-[15%] md:mx-[22%] lg:mx-[30%] border-x-1 border-base-300">
               <span>{data?.bioSection?.text}</span>
             </div>
             <div className="pattern-sm h-8 screen-line-before screen-line-after"></div>
-            <div className="mx-[30%] border-x-1 border-base-300">
+            <div className="mx-[7%] sm:mx-[15%] md:mx-[22%] lg:mx-[30%] border-x-1 border-base-300">
               <ul className="flex flex-col w-full p-5 gap-3">
                 {data?.bioSection?.items?.map((item, index) => (
                   <li
@@ -46,11 +46,11 @@ export default async function Contact() {
               </ul>
             </div>
             <div className="pattern-sm h-8 screen-line-before screen-line-after"></div>
-            <div className="py-2 pl-2 font-mono text-xs text-neutral-500 select-none mx-[30%] border-x-1 border-base-300">
+            <div className="py-2 pl-2 font-mono text-xs text-neutral-500 select-none mx-[7%] sm:mx-[15%] md:mx-[22%] lg:mx-[30%] border-x-1 border-base-300">
               <span>{data?.linksSection?.text}</span>
             </div>
-            <div className="relative mx-[30%] border-x-1 border-base-300">
-              <div className="absolute -z-1 inset-0 grid gap-4 grid-cols-2">
+            <div className="relative mx-[7%] sm:mx-[15%] md:mx-[22%] lg:mx-[30%] border-x-1 border-base-300">
+              <div className="invisible sm:visible absolute -z-1 inset-0 grid gap-4 grid-cols-2">
                 <div className="border-r border-base-300"></div>
                 <div className="border-l border-base-300"></div>
               </div>
@@ -90,7 +90,7 @@ export default async function Contact() {
               </div>
             </div>
             <div className="pattern-sm h-8 screen-line-after"></div>
-            <div className="h-15 pb-1 font-mono text-xs text-neutral-500 select-none mx-[30%] border-x-1 border-base-300"></div>
+            <div className="h-15 pb-1 font-mono text-xs text-neutral-500 select-none mx-[7%] sm:mx-[15%] md:mx-[22%] lg:mx-[30%] border-x-1 border-base-300"></div>
           </div>
         </div>
       </VortexBackground>

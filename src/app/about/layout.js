@@ -10,13 +10,13 @@ export default async function AboutLayout({ children }) {
   return (
     <div className="relative z-10 w-full h-full overflow-auto">
       <div className="w-full h-full grid grid-cols-18">
-        <div className="col-span-4">
+        <div className="col-span-18 md:col-span-6 lg:col-span-4 border-b-1 border-base-300">
           <AboutNavbar
             data={data?.data}
-            className="pt-8 menu rounded-box w-full sticky top-0"
+            className="py-8 menu rounded-box w-full sticky top-0 px-[7%] sm:px-[15%] md:px-[0]"
           />
         </div>
-        <div className="col-span-14 h-full w-full border-l-1 border-base-300">
+        <div className="col-span-18 md:col-span-12 lg:col-span-14 h-full w-full border-l-1 border-base-300">
           {children}
         </div>
       </div>

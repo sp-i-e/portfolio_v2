@@ -9,7 +9,7 @@ export default function CodeBlock({ codeBlocks }) {
   return (
     <div
       className={clsx([
-        "mockup-code mx-[33%] rounded-none",
+        "mockup-code mx-[7%] sm:mx-[15%] md:mx-[22%] lg:mx-[33%] rounded-none",
         { "bg-neutral/50": state?.theme === "dark" },
         { "bg-neutral/85": state?.theme !== "dark" },
       ])}

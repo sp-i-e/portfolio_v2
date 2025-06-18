@@ -16,7 +16,7 @@
     },
     {
       "prefix": "",
-      "text": "git@github.com:sp-9904/sp-9904.github.io.git .",
+      "text": "git@...sp-i-e.github.io.git .",
       "className": "",
       "isLink": true,
       "link": "https://github.com/sp-i-e/portfolio_v2"
@@ -30,7 +30,14 @@
     },
     {
       "prefix": ">",
-      "text": "Resolving deltas: 100% (41/41), done.",
+      "text": "Resolving deltas:",
+      "className": "text-success",
+      "isLink": false,
+      "link": ""
+    },
+    {
+      "prefix": "",
+      "text": "100% (41/41), done.",
       "className": "text-success",
       "isLink": false,
       "link": ""

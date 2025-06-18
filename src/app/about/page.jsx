@@ -11,12 +11,12 @@ export default async function About() {
 
   return (
     <div className="flex flex-col w-full h-full overflow-x-hidden">
-      <div className="pt-15 pb-1 font-mono text-xs text-neutral-500 select-none mx-[22%] border-x-1 border-base-300"></div>
-      <div className="screen-line-before py-2 pl-2 font-mono text-xs text-neutral-500 select-none mx-[22%] border-x-1 border-base-300">
+      <div className="pt-15 pb-1 font-mono text-xs text-neutral-500 select-none mx-[7%] sm:mx-[15%] md:mx-[15%] lg:mx-[22%] border-x-1 border-base-300"></div>
+      <div className="screen-line-before py-2 pl-2 font-mono text-xs text-neutral-500 select-none mx-[7%] sm:mx-[15%] md:mx-[15%] lg:mx-[22%] border-x-1 border-base-300">
         <span>{data?.bioSection?.text}</span>
       </div>
       <div className="pattern-sm h-8 screen-line-before screen-line-after"></div>
-      <div className="mx-[22%] border-x-1 border-base-300">
+      <div className="mx-[7%] sm:mx-[15%] md:mx-[15%] lg:mx-[22%] border-x-1 border-base-300">
         <ul className="flex flex-col w-full p-5 gap-3">
           {data?.bioSection?.items?.map((item, index) => (
             <li
@@ -27,10 +27,10 @@ export default async function About() {
                 <RenderLinkIcon icon={item?.icon} className="w-4 h-4" />
               </div>
               <div>
-                <span>{item?.text} </span>
+                <span className="wrap-anywhere">{item?.text} </span>
                 {item?.linkText && (
                   <Link
-                    className="link link-hover"
+                    className="link link-hover wrap-anywhere"
                     href={item?.link}
                     target="_blank"
                   >
@@ -43,15 +43,15 @@ export default async function About() {
         </ul>
       </div>
       <div className="pattern-sm h-8 screen-line-before screen-line-after"></div>
-      <div className="py-2 pl-2 font-mono text-xs text-neutral-500 select-none mx-[22%] border-x-1 border-base-300">
+      <div className="py-2 pl-2 font-mono text-xs text-neutral-500 select-none mx-[7%] sm:mx-[15%] md:mx-[15%] lg:mx-[22%] border-x-1 border-base-300">
         <span>{data?.linksSection?.text}</span>
       </div>
-      <div className="relative mx-[22%] border-x-1 border-base-300">
-        <div className="absolute -z-1 inset-0 grid gap-4 grid-cols-2">
+      <div className="relative mx-[7%] sm:mx-[15%] md:mx-[15%] lg:mx-[22%] border-x-1 border-base-300">
+        <div className="invisible lg:visible absolute -z-1 inset-0 grid gap-4 grid-cols-1 lg:grid-cols-2">
           <div className="border-r border-base-300"></div>
           <div className="border-l border-base-300"></div>
         </div>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           {data?.linksSection?.items?.map((item, index) => (
             <Link
               key={`link-item-${index + 1}`}
@@ -87,7 +87,7 @@ export default async function About() {
         </div>
       </div>
       <div className="pattern-sm h-8 screen-line-after"></div>
-      <div className="h-15 pb-1 font-mono text-xs text-neutral-500 select-none mx-[22%] border-x-1 border-base-300">
+      <div className="h-15 pb-1 font-mono text-xs text-neutral-500 select-none mx-[7%] sm:mx-[15%] md:mx-[15%] lg:mx-[22%] border-x-1 border-base-300">
         <div className="grid gap-4 grid-cols-2 h-full">
           <div className="border-r border-base-300 h-full"></div>
           <div className="border-l border-base-300 h-full"></div>
