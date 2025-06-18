@@ -15,7 +15,7 @@ export default function Footer() {
       >
         <Link
           className="h-full w-full flex items-center justify-center"
-          href="https://drive.google.com/file/d/1e_U2rVGM2iFZI9AfAILRyiLh2rt1I7n5/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Sp7H35MfQzWue81gpkcSZDaFrEOmNp4R/view?usp=sharing"
           target="_blank"
         >
           <ResumeIcon className="h-10 w-10 fill-current" />
